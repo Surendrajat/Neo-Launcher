@@ -258,6 +258,7 @@ class OmegaSmartSpaceController(val context: Context) {
                     launcher, data.forecastUrl,
                     launcher.getViewBounds(v), launcher.getActivityLaunchOptions(v)?.toBundle()
                 )
+                
             }
         }
     }
